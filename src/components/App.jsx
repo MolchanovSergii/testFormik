@@ -1,3 +1,9 @@
+import { LoginForm } from './LoginForm';
+
 export const App = () => {
-  return <div></div>;
+  return (
+    <div>
+      <LoginForm />
+    </div>
+  );
 };
